@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Agdasima', sans-serif;
+            background-color: #907c65;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #b3a089;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header .site-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #26211a;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .grid-item h3 {
+            font-size: 1.2rem;
+            color: #26211a;
+            margin: 10px 0;
+        }
+
+        .grid-item p {
+            font-size: 1rem;
+            color: #907c65;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #26211a;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .back-button:hover {
+            background-color: #625444;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <header class="header">
+            <div class="logo-container">
+              <img src="https://i.pinimg.com/736x/27/a8/8e/27a88ec8f8f3b9cee4c3a2b180cbe553.jpg" alt="Logo" class="logo">
+              <span class="site-name">Evania</span>
+            </div>
+            <nav class="navbar">
+               <button class="navbar-toggle">
+                &#9776;
+               </button>
+    
+               </div>
+               <ul class="navbar-links">
+                <li>
+                    <form action="index.html">
+                        <button type="submit">Home</button>
+                    </form>
+                </li>
+                <li>
+                    <form action="news.html">
+                        <button type="submit">News</button>
+                    </form>
+                </li>
+                <li>
+                    <form action="clothes.html">
+                        <button type="submit">Clothes</button>
+                    </form>
+                </li>
+                <li>
+                    <form action="contact.html">
+                        <button type="submit">Contact</button>
+                    </form>
+                </li>
+        
+                <li>
+                    <form action="about.html">
+                        <button type="submit">About Us</button>
+                    </form>
+                </li>
+            </ul>
+            
+               <div class="search-container">
+                <input type="text" class="search-bar" placeholder="Search...">
+                <button class="search-button">&#128269;</button>
+            </div>
+            </nav>
+          </header>
+    </header>
+
+    <h1 style="text-align: center; margin: 20px 0; color: #26211a;">Our Categories</h1>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <a href="beige-jacket.html">
+            <img src="https://i.pinimg.com/736x/09/ae/7a/09ae7a82218689e4bfdadf62b2b33d8f.jpg" alt="Beige Jacket">
+            <h3>Beige Jacket</h3>
+            <p>$59.99</p>
+            </a>
+        </div>
+        <div class="grid-item">
+            <img src="https://i.pinimg.com/736x/75/2e/9d/752e9d9650365e0b0409e00e5fb88e84.jpg" alt="Brown Jacket">
+            <h3>Brown Jacket</h3>
+            <p>$49.99</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://i.pinimg.com/736x/bf/98/6b/bf986b301113ace9bcb798483b623de5.jpg" alt="Grey Sweater">
+            <h3>Grey Sweater</h3>
+            <p>$39.99</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://i.pinimg.com/736x/24/36/ba/2436ba6b13bec89448018edf8f15a553.jpg" alt="Black Coat">
+            <h3>Black Coat</h3>
+            <p>$69.99</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://i.pinimg.com/736x/7d/cb/94/7dcb9440fe81beaa19fe39ddb326837a.jpg" alt="Denim Jacket">
+            <h3>Denim Jacket</h3>
+            <p>$45.99</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://i.pinimg.com/736x/d6/c1/05/d6c1053d9f82b90ef52a6b71ebe9ebce.jpg" alt="White Sweater">
+            <h3>White Sweater</h3>
+            <p>$35.99</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://i.pinimg.com/736x/ae/4e/93/ae4e93da3dfe9ecf223f3000faea811d.jpg" alt="Green Coat">
+            <h3>Green Coat</h3>
+            <p>$55.99</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://i.pinimg.com/736x/16/2b/62/162b620addbca48d640884f01d75ecd0.jpg" alt="Red Sweater">
+            <h3>Red Sweater</h3>
+            <p>$37.99</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://i.pinimg.com/736x/1a/ae/6f/1aae6f59a58dd8920d4de5dd0d4b5564.jpg" alt="Yellow Jacket">
+            <h3>Yellow Jacket</h3>
+            <p>$42.99</p>
+        </div>
+    </div>
+
+    <a href="index.html" class="back-button">Back to Home</a>
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="https://www.tbceducation.ge" target="_blank">
+                <img src="https://play-lh.googleusercontent.com/dm3fymv5TBQN375FMBGd9WesS-iEU9wrXqxvjVb5g4sJyaPmiWHGenNtJSqZ5FKi8vY" alt="tbc logo" class="tbc-logo">  
+            </a>
+            <p>&copy; 2024 Evania Community. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+      </footer>
+</body>
+</html>

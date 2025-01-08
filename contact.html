@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <style>
+        body {
+            background-color: #dbcfc0;
+            margin: 0;
+            font-family: 'Agdasima', sans-serif;
+        }
+
+        .contact-section {
+            max-width: 80%;
+            margin: 20px auto;
+            background-color: #b3a089;
+            padding: 20px;
+            border-radius: 14px;
+        }
+
+        .contact-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .contact-form {
+            text-align: center;
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+            font-size: 1em;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            background-color: #dbcfc0;
+            color: #625444;
+            width: 100%;
+            max-width: 400px;
+            padding: 10px;
+            font-size: 1em;
+            box-sizing: border-box;
+            margin: 0 auto;
+            display: block;
+            font-size: 1em;
+            border-radius: 15px;
+            border-color: transparent;
+        }
+        
+        .contact-form input::placeholder,
+        .contact-form textarea::placeholder {
+            color: #625444;
+        }
+
+        .contact-form textarea {
+            background-color: #dbcfc0;
+            resize: none;
+            height: 100px;
+        }
+
+        .contact-form button {
+            font-family: 'Agdasima';
+            margin-top: 10px;
+            background-color: #907c65;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        .contact-form button:hover {
+            background-color: #625444;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            color: #625444;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="https://i.pinimg.com/736x/27/a8/8e/27a88ec8f8f3b9cee4c3a2b180cbe553.jpg" alt="Logo" class="logo">
+            <span class="site-name">Evania</span>
+        </div>
+        <nav class="navbar">
+            <button class="navbar-toggle">
+                &#9776;
+               </button>
+            <ul class="navbar-links">
+                <li>
+                    <form action="index.html">
+                        <button type="submit">Home</button>
+                    </form>
+                </li>
+                <li>
+                    <form action="news.html">
+                        <button type="submit">News</button>
+                    </form>
+                </li>
+                <li>
+                    <form action="clothes.html">
+                        <button type="submit">Clothes</button>
+                    </form>
+                </li>
+                <li>
+                    <form action="contact.html">
+                        <button type="submit">Contact</button>
+                    </form>
+                </li>
+        
+                <li>
+                    <form action="about.html">
+                        <button type="submit">About Us</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <button class="search-button">&#128269;</button>
+        </div>
+    </header>
+
+    <section class="contact-info">
+        <p><strong>Phone:</strong> +995 123 456 345</p>
+        <p><strong>Email:</strong> info@evania.com</p>
+        <p><strong>Address:</strong> 159 Fashion Street, New York, NY</p>
+    </section>
+
+    <main>
+        <section class="contact-section">
+            <div class="contact-header">
+                <h1>Contact Us</h1>
+                <p>Have questions or need assistance? We’re here to help!</p>
+            </div>
+            <div class="contact-container">
+
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="https://www.tbceducation.ge" target="_blank">
+                <img src="https://play-lh.googleusercontent.com/dm3fymv5TBQN375FMBGd9WesS-iEU9wrXqxvjVb5g4sJyaPmiWHGenNtJSqZ5FKi8vY" alt="TBC Logo" class="tbc-logo">
+            </a>
+            <p>&copy; 2024 Evania Community. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
